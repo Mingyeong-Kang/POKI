@@ -2,11 +2,11 @@
 
 
 ## 🎯 프로젝트 소개
-- **프로젝트명**: TBD
-- **주제**: TBD
+- **프로젝트명**: PitchCoach
+- **주제**: AI 기반 IR 피칭 준비 플랫폼 (PitchCoach for Startups)
 - **기간**: 2025.09 ~ 2026.06
 
-이 저장소는 **POKI** 팀이 진행하는 프로젝트의 모든 소스 코드, 문서, 그리고 관련 자료를 포함하고 있습니다. 저희 팀은 **[프로젝트의 핵심 목표 또는 만들고 싶은 서비스]**를 개발하는 것을 목표로 하고 있습니다.
+이 저장소는 **POKI** 팀이 진행하는 프로젝트의 모든 소스 코드, 문서, 그리고 관련 자료를 포함하고 있습니다. 저희 팀은 **AI 기반 IR 피칭 준비 플랫폼 (PitchCoach for Startups)**를 개발하는 것을 목표로 하고 있습니다.
 
 
 ## 🚀 주요 기능
@@ -18,16 +18,24 @@
 
 ## 🛠 기술 스택
 
-* **언어**: JavaScript 등
-* **프레임워크/라이브러리**: Node.js, TypeScript, React 등
-* **데이터베이스**: MySQL, AWS 등
+- **ASR**: OpenAI Whisper, Google STT
+- **NLP**: GPT‑4/5, Claude, LLaMA(문서 분석/요약/질문 생성)
+- **Prosody**: tone/pitch/speed 분석
+- **Scoring**: 루브릭 점수화 모델
+- **문서 개선**: LLM 기반 Deck 문구/데이터 제안
+
+**플랫폼 스택**
+
+- **FE**: React + Tailwind + Recharts, Web Audio API, WebSocket
+- **BE**: Node.js(Express) + Prisma + PostgreSQL, S3 스토리지
+- **분석 워커**: Python(FastAPI) + librosa + ko‑Sbert
 
 
 ## 👥 팀원
 
-* **강민경**: [맡은 역할 또는 담당 파트]
-* **김예린**: [맡은 역할 또는 담당 파트]
-* **장현서**: [맡은 역할 또는 담당 파트]
+* **강민경(2276004)**: [맡은 역할 또는 담당 파트]
+* **김예린(2276074)**: [맡은 역할 또는 담당 파트]
+* **장현서(2317028)**: [맡은 역할 또는 담당 파트]
 
 
 ## 📜 라이선스
